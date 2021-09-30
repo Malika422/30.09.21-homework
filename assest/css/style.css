@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* intro start */
+
+#intro{
+    /* background-image: url(/assest/images/section-1/img1.svg); */
+    background-image: linear-gradient(45deg,#4fa49a, #4361c2);
+}
+
+#intro .photon-template{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#intro .photon-template .intro-title i{
+    color: #ffffff;
+    font-size: 106px;
+    padding: 10%;
+}
+
+#intro .photon-template .intro-title h1{
+    color: #ffffff;
+    font-size: 33px;
+}
+
+#intro .photon-template .intro-title span{
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    padding-top: 8%;
+    padding-bottom: 9%;
+}
+
+.button{
+    display: block;
+    text-align: center;
+}
+
+
+
